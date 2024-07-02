@@ -1,0 +1,91 @@
+body{
+    background-color: #ee7cb5;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-stretch:wider;
+    cursor:default;
+}
+input{
+    margin: 10px 4px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 17px;
+    width: 190px;
+    border: #e60073;
+    cursor: pointer;
+    background: rgb(199, 185, 239);
+    box-shadow: 6px 5px 9px rgb(219, 60, 150);
+}
+div{
+    width: 290px;
+    margin: auto;
+    
+}
+table{
+    margin: 20px auto;
+}
+button{
+    box-shadow: 6px 5px 9px rgb(235, 41, 151);
+    background-image:linear-gradient(140deg, rgb(250, 27, 150),rgb(195, 0, 255));
+    color: white;
+    border: none;
+    height: 33px;
+    width: 90px;
+    margin:0 20px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+    color: #222222;
+    font-size: 15px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+button:hover{
+    transform: scale(1.1);
+    background-image:linear-gradient(140deg,rgb(195, 0, 255), rgb(250, 27, 150));
+    border-radius: 50%;
+}
+
+.glow {
+    font-size: 50px;
+    color: #9f0000;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #fff, 0 0 15px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
+    cursor:default;
+}
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+}
+#result{
+    font-family: 'Rocher';
+    font-palette: --Purples;
+    font-size: 40px;
+}

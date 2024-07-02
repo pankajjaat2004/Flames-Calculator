@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flames Calculator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <script src="logic.js"></script>
+</head>
+<body>
+    <h1 class="glow">Flames Calculator</h1>
+    <div>
+        <span>Name 1 : </span><input type="text" id="name1" value="">
+    </div>
+    <div>
+        <span>Name 2 : </span><input type="text" id="name2" value="">
+    </div>    
+    <table>
+        <tr>
+            <td><button onclick="CalculateFLAMES()">Calculate</button></td>
+            <td><button id="ResetAll" onclick="Resets()">Reset</button></td>
+        </tr>
+    </table>
+    <h1 id="result" ></h1>
+</body>
+</html>
